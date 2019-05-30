@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/funciones.js" type="text/javascript"></script>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="oscuro">
+        <div class="cabecera">
+            <h1>Bienvenido</h1>
+        </div>
+        <div class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#news">Noticias</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Despegable
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content darkfont" id="myDropdown">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="barra-iconos">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-google"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        </div>
+
+        <div class="content">
+            <h3>Menú despegable en la barra de navegación</h3>
+            <p>Haga click en <q>Despegable</q> para ver el menú despegable.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et
+                eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera 
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera
+                fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+            <h2>Acordeón</h2>
+            <button class="accordion">Sección 1</button>
+            <div class="panel">
+                <p>Lorem ipsum es un texto de relleno, consectetur adipisicing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+            <button class="accordion">Sección 2</button>
+            <div class="panel">
+                <p>Lorem ipsum es solo un texto de relleno para completar el contenido de una pagina web de ejemplo. consectetur 
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+            <button class="accordion">Sección 3</button>
+            <div class="panel">
+                <p>Lorem ipsum es solo un texto de relleno que sirve para completar la pagina web que estamso desarrollando
+                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <hr>
+
+            <h2>Pestañas</h2>
+            <p>Haga click en los botones dentro de la pestaña</p>
+            <div class="tab">
+
+                <button class="tablinks" onclick="openCity(event, 'London')">Londres</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">París</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokio</button>
+            </div>
+
+            <div id="London" class="tabcontent">
+                <h3>Londres</h3>
+                <p>Londres es la capital de inglaterra.</p>
+            </div>
+
+            <div id="Paris" class="tabcontent">
+                <h3>París</h3>
+                <p>París es la capital de Francia.</p>
+            </div>
+
+            <div id="Tokyo" class="tabcontent">
+                <h3>Tokio</h3>
+                <p>Tokio es la capital de Japón.</p>
+            </div>
+
+            <hr>
+            <h2>Configuración</h2>
+            <br>
+            <br>
+            <label>Modo Oscuro:&nbsp; &nbsp;</label>
+            <label class="switch">
+                <input id="checkbox" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <br>
+            <br>
+        </div>
+
+
+        <div class="piedepagina">
+            <h3>Fin de la Pagina</h3>
+        </div>
+        <script>
+            /*Función para activar el modo oscuro con el checked*/
+            function on() {
+                //alert("Modo Oscuro Activado");
+
+                /*función utilizando id*/
+                //document.getElementById('oscuro').style.background = '#323232';
+                //document.getElementById('oscuro').style.color = 'white';
+
+                /*Función utilizando class*/
+                var myElement = $(".oscuro");
+                myElement.css("background", "#323232");
+                myElement.css("color", "white");
+
+                var myElement = $(".darkfont");
+                myElement.css("background", "#C2C2C2");
+                myElement.css("color", "white");
+            }
+
+            /* Función para desactivar el modo oscuro */
+            function off() {
+                //alert("Modo Oscuro desactivado");
+
+                /*funcion utilizando 'id'*/
+                //document.getElementById('oscuro').style.background = '#FDFDFD';
+                //document.getElementById('oscuro').style.color = 'black';
+
+                /*Función utilizando 'class'*/
+                /*La ventaja de utilizar 'class' es que puedes aplicar más estilos
+                 * a más elementos*/
+                var myElement = $(".oscuro");
+                myElement.css("background", "#FDFDFD");
+                myElement.css("color", "black");
+
+                var myElement = $(".darkfont");
+                myElement.css("background", "#f9f9f9");
+                myElement.css("color", "white");
+            }
+
+            var checkbox = document.getElementById('checkbox');
+
+            checkbox.addEventListener("change", comprueba, false);
+
+            function comprueba() {
+                if (checkbox.checked) {
+                    on();
+                } else {
+                    off();
+                }
+            }
+
+            /**/
+            $("#oscuro").on('change', function () {
+                if ($(this).is(':checked')) {
+                    $("#po").addClass(".fondo-inner");
+                    //alert("El checkbox con valor " + $(this).val() + " ha sido seleccionado");
+                } //else {
+                // Hacer algo si el checkbox ha sido deseleccionado
+                // alert("El checkbox con valor " + $(this).val() + " ha sido deseleccionado");
+                //}
+            });
+
+            /*----------Función para el acordeón----------*/
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+
+            /*-----------------------------Funcion de pestañas------------------------------*/
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+        <!--script>
+            function prueba() {
+                var elemento = document.getElementsByTagName("DIV")[3].className;;
+                //elemento.addEventListener('add', 'fondooscuro', false);
+
+                if (elemento.checked) {
+                    elemento.classList.add("fondooscuro");
+                } else {
+                    elemento.classList.remove("fondooscuro");
+                }
+            }
+        </script-->
+    </body>
+</html>
